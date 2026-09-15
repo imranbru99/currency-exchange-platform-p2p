@@ -1,0 +1,269 @@
+{
+    "banner": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Banner Section",
+        "content": {
+            "images": {
+                "background_image": {
+                    "size": "1200x685"
+                }
+            },
+            "heading": "text",
+            "sub_heading": "text"
+        }
+    },
+
+    "feature": {
+        "builder": true,
+        "name": "Feature Section",
+        "content": {
+            "heading": "text",
+            "sub_heading": "text"
+        },
+        "element": {
+            "title": "text",
+            "description": "textarea",
+            "feature_icon": "icon",
+            "modal": true
+        }
+    },
+
+    "reserve": {
+        "builder": true,
+        "name": "Reserve Section",
+        "content": {
+            "heading": "text",
+            "sub_heading": "text",
+            "button_text": "text"
+        }
+    },
+
+    "counter": {
+        "builder": true,
+        "name": "Counter Section",
+        "content": {
+            "images": {
+                "background_image": {
+                    "size": "1200x335"
+                }
+            }
+        },
+        "element": {
+            "title": "text",
+            "counter_digit": "text",
+            "counter_icon": "icon",
+            "modal": true
+        }
+    },
+
+    "howto": {
+        "builder": true,
+        "name": "Exchange Proc. Section",
+        "content": {
+            "images": {
+                "background_image": {
+                    "size": "1000x656"
+                }
+            }
+        },
+        "element": {
+            "how_icon": "icon",
+            "title": "text",
+
+            "modal": true
+        }
+    },
+
+    "faq": {
+        "builder": true,
+        "name": "FAQ Section",
+        "content": {
+            "images": {
+                "faq_image": {
+                    "size": "594x800"
+                }
+            },
+            "heading": "text",
+            "sub_heading": "text"
+        },
+        "element": {
+            "question": "text",
+            "answer": "textarea-nic",
+            "modal": false
+        }
+    },
+
+    "transaction": {
+        "builder": true,
+        "name": "Transaction Section",
+        "content": {
+            "heading": "text",
+            "sub_heading": "text"
+        }
+    },
+
+    "client": {
+        "builder": true,
+        "name": "Client Section",
+        "content": {
+            "heading": "text",
+            "sub_heading": "text"
+        },
+        "element": {
+            "name": "text",
+            "designation": "text",
+            "description": "textarea",
+            "modal": true
+        }
+    },
+
+    "blog": {
+        "builder": true,
+        "name": "Blog Section",
+        "content": {
+            "heading": "text",
+            "sub_heading": "text"
+        },
+        "element": {
+            "images": {
+                "blog_image": {
+                    "size": "800x581"
+                }
+            },
+            "title": "text",
+            "short_details": "textarea",
+            "description_nic": "textarea-nic",
+            "blog_icon": "icon",
+            "modal": false
+        }
+    },
+
+    "newslatter": {
+        "builder": true,
+        "name": "Newsletter Section",
+        "content": {
+            "images": {
+                "button_image": {
+                    "size": "200x200"
+                },
+                "image_property": {
+                    "size": "600x360"
+                }
+            },
+
+            "heading": "text",
+            "sub_heading": "text"
+        }
+    },
+
+    "footer": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Footer Section",
+        "content": {
+            "details": "text",
+            "copyright": "text"
+        },
+        "element": {
+            "icon_title": "text",
+            "feature_icon": "icon",
+            "url": "text",
+            "modal": true
+        }
+    },
+
+    "about": {
+        "builder": true,
+        "name": "About Us",
+        "content": {
+            "images": {
+                "about_image": {
+                    "size": "500x500",
+                    "thumb": "100x100"
+                }
+            },
+            "heading": "text",
+            "sub_heading": "text",
+            "description": "textarea-nic",
+            "about_icon": "icon"
+        }
+    },
+
+    "mission": {
+        "builder": true,
+        "no_selection": false,
+        "name": "Mission Vision ",
+        "element": {
+            "images": {
+                "image": {
+                    "size": "1000x675"
+                }
+            },
+            "heading": "text",
+            "sub_heading": "text",
+            "description": "textarea-nic",
+            "modal": false
+        }
+    },
+
+    "affiliation": {
+        "builder": true,
+        "no_selection": false,
+        "name": "Affiliation",
+        "content": {
+            "heading": "text",
+            "sub_heading": "text",
+            "description": "textarea"
+        }
+    },
+
+    "call": {
+        "builder": true,
+        "no_selection": false,
+        "name": "Call Section",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "1000x851"
+                }
+            },
+            "heading": "text",
+            "sub_heading": "text",
+            "button_text": "text",
+            "button_url": "text"
+        }
+    },
+
+
+    "policy": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Policy Section",
+        "element": {
+            "title": "text",
+            "description": "textarea-nic",
+            "modal":false
+        }
+    },
+    "contact_us": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Contact Us",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "650x783"
+                }
+            },
+            "title": "text",
+            "short_details": "text",
+            "email_address": "text",
+            "contact_details": "text",
+            "contact_number": "text",
+            "latitude": "text",
+            "longitude": "text",
+            "website_footer": "textarea-nic"
+        }
+    }
+}

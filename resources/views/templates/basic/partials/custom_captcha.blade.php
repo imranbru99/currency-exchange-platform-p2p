@@ -1,0 +1,25 @@
+@php
+	$captcha = loadCustomCaptcha();
+@endphp
+@if($captcha)
+    <div class="form-group row customCaptcha">
+        <div class="col-md-12">
+            @php echo $captcha @endphp
+        </div>
+        <div class="col-md-12 mt-4">
+            <input type="text" name="captcha" placeholder="@lang('Enter Code')" class="form--control">
+        </div>
+    </div>
+@endif
+
+
+@push('style')
+<style>
+	.customCaptcha div{
+		width: 100% !important;
+	}
+	.customCaptcha span{
+		color: white !important;
+	}
+</style>
+@endpush
